@@ -52,7 +52,6 @@ function calculateChange(amountToBeReturned) {
 
       amountToBeReturned = amountToBeReturned % availableNotes[i];
       noOfNotes[i].innerText = numberOfNotes;
-      console.log(numberOfNotes);
     }
   }
 }
