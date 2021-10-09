@@ -1,8 +1,51 @@
-* {
-}
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
 
+body {
+  background-color: rgb(221, 197, 152);
+}
 .container {
   display: flex;
   flex-direction: column;
   width: 50vw;
+  text-align: center;
+  padding: 2rem;
+  padding-left: 20rem;
+  font-family: "PT Sans", sans-serif;
+}
+
+:root {
+  --primary-color: #b45309;
+}
+.heading {
+  color: var(--primary-color);
+}
+label {
+  display: block;
+  font-size: large;
+  font-weight: 800;
+}
+button {
+  display: block;
+  width: 10%;
+  margin: auto;
+  margin-left: 20rem;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  font-weight: 600;
+  background-color: #b45309;
+}
+input {
+  width: 20%;
+  margin: auto;
+}
+caption {
+  font-weight: 600;
+  padding: 1rem;
+  font-size: larger;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
 }
