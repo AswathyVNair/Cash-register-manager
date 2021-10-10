@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
 
 body {
-  background-color: rgb(221, 197, 152);
+  background-color: #ddc598;
+  font-family: "PT Sans", sans-serif;
+  margin: 0;
 }
 .container {
   display: flex;
@@ -10,7 +12,6 @@ body {
   text-align: center;
   padding: 2rem;
   padding-left: 20rem;
-  font-family: "PT Sans", sans-serif;
 }
 
 :root {
@@ -29,7 +30,7 @@ button {
   display: block;
   width: 15%;
   margin: auto;
-  margin-left: 20rem;
+  margin-left: auto;
   margin-top: 0.5rem;
   padding: 0.5rem 1rem;
   font-weight: 600;
@@ -58,4 +59,34 @@ td {
 }
 #error-message {
   font-weight: 600;
+  font-size: x-large;
+}
+.footer {
+  background-color: var(--primary-color);
+  padding: 2rem 2rem;
+  text-align: center;
+  color: white;
+  border-top-right-radius: 1rem;
+  font-size: larger;
+}
+.footer .link {
+  color: white;
+}
+.footer .footer-header {
+  font-weight: bold;
+  font-size: large;
+}
+.footer ul {
+  padding-inline-start: 0px;
+}
+.list-non-bullet {
+  list-style: none;
+}
+.list-item-inline {
+  display: inline;
+  padding: 0rem 1rem;
+}
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
 }
